@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="img/logo.png" alt="Logo" /><span>Spotify</span>
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1>Best of NCS- No Copyright Sounds</h1>
+        <div class="songItemcontainer">
+          <div class="songItem">
+            <img src="img1/.jpg" alt="1" /> <span  class="songeName">Aaayt ff</span>
+            <span class="sonlistplay">
+              <span class="timeStart"
+                >05:34
+                <i id="0" class="fa-regular songItemPlay  fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="img1/2.jpg" alt="1" /> <span class="songeName">Atak ya</span>
+            <span class="sonlistplay">
+              <span class="timeStart"
+                >05:34
+                <i id="1" class="fa-regular songItemPlay  fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="img1/3.jpg" alt="1" /> <span class="songeName">Raanjhana</span>
+            <span class="sonlistplay">
+              <span class="timeStart"
+                >05:34
+                <i id="2" class="fa-regular songItemPlay  fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="img1/4.jpg" alt="1" /> <span class="songeName">Hum Nashe Mein Toh Nahin</span>
+            <span class="sonlistplay">
+              <span class="timeStart"
+                >05:34
+                <i id="3" class="fa-regular songItemPlay  fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+        
+          <div class="songItem">
+            <img src="img1/5.jpg" alt="1" /> <span class="songeName">Llahi</span>
+            <span class="sonlistplay">
+              <span class="timeStart"
+                >05:34
+                <i id="4" class="fa-regular songItemPlay  fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="img1/6.jpg" alt="1" /> <span class="songeName">Laal Ishq</span>
+            <span class="sonlistplay">
+              <span class="timeStart"
+                >05:34
+                <i id="5" class="fa-regular songItemPlay  fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+        
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0" />
+      <div class="icons">
+        <!-- icons -->
+        <i id="previos" class="fa-solid fa-2x fa-backward-step"></i>
+        <i class="fa-regular fa-2x fa-circle-play" id="masterPlay"></i>
+        <i id="next" class="fa-solid fa-2x fa-forward-step"></i>
+      </div>
+      <div class="songInfo">
+        <img src="img/gif.gif" width="70px" alt="" id="gif">
+        <span id="masterSongInfo">Aaayt -Arijit Singh</span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
